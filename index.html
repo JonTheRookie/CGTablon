@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridgestone FC | Official Fan Zone</title>
+    <style>
+        /* CSS: Football Theme */
+        :root {
+            --pitch-green: #2ecc71;
+            --stadium-dark: #1a1a1a;
+            --ball-white: #ffffff;
+        }
+
+        body {
+            font-family: 'Arial Black', sans-serif;
+            margin: 0;
+            background-color: #f0f0f0;
+            color: var(--stadium-dark);
+        }
+
+        header {
+            background: var(--stadium-dark);
+            color: var(--pitch-green);
+            padding: 1.5rem;
+            text-align: center;
+            border-bottom: 5px solid var(--pitch-green);
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                        url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&q=80&w=1000');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: -50px auto 20px;
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .match-card {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #f9f9f9;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-left: 5px solid var(--pitch-green);
+        }
+
+        .score-badge {
+            background: var(--stadium-dark);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        .btn-tickets {
+            display: inline-block;
+            background: var(--pitch-green);
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 50px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bridgestone FC</h1>
+    </header>
+
+    <div class="hero">
+        <div>
+            <h2>MATCH DAY IS COMING</h2>
+            <p>Experience the atmosphere at the stadium.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3>Upcoming Fixtures</h3>
+        
+        <div class="match-card">
+            <span><strong>Bridgestone FC</strong> vs Klingston United</span>
+            <span class="score-badge">SAT 3:00 PM</span>
+        </div>
+
+        <div class="match-card">
+            <span>Lourve United vs <strong>Bridgestone FC</strong></span>
+            <span class="score-badge">WED 8:45 PM</span>
+        </div>
+
+        <h3>Latest Club News</h3>
+        <p>The squad is back in training ahead of the big derby this weekend. The manager confirmed that our star striker is fit and ready for selection.</p>
+        
+        <br>
+        <a href="#" class="btn-tickets">Buy Tickets Now</a>
+    </div>
+
+    <div class="footer">
+        &copy; 2026 Bridgestone FC Fan Club. All rights reserved.
+    </div>
+
+</body>
+</html>
